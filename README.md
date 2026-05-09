@@ -119,23 +119,6 @@ Story
 
 ## 🏃 Running Locally
 
-```bash
-# Clone the repo
-git clone <your-repo-url>
-cd choose-your-own-adventure
-
-# Backend
-cd backend
-cp .env.example .env        # Add your DATABASE_URL and OPEN_AI_KEY
-uv sync
-uv run uvicorn main:app --reload
-
-# Frontend
-cd frontend
-npm install
-npm run dev
-```
-
 Backend runs at `http://localhost:8000`
 Frontend runs at `http://localhost:5173`
 
