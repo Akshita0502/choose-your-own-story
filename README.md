@@ -133,6 +133,7 @@ Frontend runs at `http://localhost:5173`
 | `GET` | `/api/stories/{id}/nodes/{node_id}` | Get a specific story node |
 
 ---
+(TILL TODAY)
 
 ## 📚 References
 
